@@ -1,5 +1,4 @@
 ﻿-- Drop tables if already exist
--- Create a new tables
 DROP TABLE departments CASCADE
 DROP TABLE titles CASCADE
 DROP TABLE employees CASCADE
