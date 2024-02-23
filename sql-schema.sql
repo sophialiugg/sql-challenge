@@ -1,4 +1,14 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+﻿-- Drop tables if already exist
+-- Create a new tables
+DROP TABLE departments CASCADE
+DROP TABLE titles CASCADE
+DROP TABLE employees CASCADE
+DROP TABLE dept_emp CASCADE
+DROP TABLE dept_manager CASCADE
+DROP TABLE salary CASCADE
+
+
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
